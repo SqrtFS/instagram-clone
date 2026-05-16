@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://sameway-production.up.railway.app/:path*"
+      "destination": "https://instagram-clone-production-50cc.up.railway.app/:path*"
     },
     {
       "source": "/auth/:path*",
-      "destination": "https://sameway-production.up.railway.app/auth/:path*"
+      "destination": "https://instagram-clone-production-50cc.up.railway.app/auth/:path*"
     },
     {
       "source": "/(.*)",
