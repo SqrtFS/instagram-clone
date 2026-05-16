@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Pipenv
+Pipfile.lock
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# FastAPI cache/temp
+*.pid
+
+# IDE
+.idea/
+
+# Node (if frontend later)
+node_modules/
+
+# Uploads / media
+uploads/
+media/
+
+# Alembic
+alembic/versions/*.pyc
+
+src/db.sql
